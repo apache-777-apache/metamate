@@ -54,14 +54,14 @@ export default function Signup({ onSignup }) {
       <div className="project-title-row">
         <div className="logo-wrapper">
           <img
-            src="https://i.ibb.co/x8mCkJ50/logo.png"
-            alt="MetaMate Logo"
+            src="https://i.ibb.co/VYrDSWFn/logo.png"
+            alt="EchoMeet Logo"
             className="project-logo"
           />
         </div>
         <div className="project-title">
-          <span className="meta">Meta</span>
-          <span className="mate">Mate</span>
+          <span className="meta">Echo</span>
+          <span className="mate">Meet</span>
           <p className="slogan">Sign In to meet strangers</p>
         </div>
       </div>
