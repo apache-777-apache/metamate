@@ -949,13 +949,13 @@ export default function Dashboard({ onLogout }) {
       <nav className="navbar">
         <div className="navbar-left">
           <img
-            src="https://i.ibb.co/x8mCkJ50/logo.png"
-            alt="MetaMate Logo"
+            src="https://i.ibb.co/VYrDSWFn/logo.png"
+            alt="Echomeet Logo"
             className="navbar-logo"
           />
           <span className="navbar-title">
-            <span className="meta">Meta</span>
-            <span className="mate">Mate</span>
+            <span className="meta">Echo</span>
+            <span className="mate">Meet</span>
           </span>
         </div>
         <div className="navbar-right">
