@@ -7,10 +7,10 @@ const config = {
   production: {
     BACKEND_URL:
       process.env.REACT_APP_BACKEND_URL ||
-      "https://fyp-metamate-production.up.railway.app",
+      "https://metamate-production.up.railway.app",
     WS_URL:
       process.env.REACT_APP_WS_URL ||
-      "wss://fyp-metamate-production.up.railway.app",
+      "wss://metamate-production.up.railway.app",
   },
 };
 
