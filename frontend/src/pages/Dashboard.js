@@ -464,8 +464,8 @@ export default function Dashboard({ onLogout }) {
     // Small delay to ensure cleanup is complete
     await new Promise((resolve) => setTimeout(resolve, 200));
 
-    console.log("Starting WebSocket connection to:", WS_URL);
-    const socket = new window.WebSocket(WS_URL);
+    console.log("Starting WebSocket connection to:", "wss://metamate-production.up.railway.app");
+    const socket = new window.WebSocket("wss://metamate-production.up.railway.app");
     setStatus("Connecting...");
 
     socket.onopen = () => {
