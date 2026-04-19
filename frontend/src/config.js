@@ -6,11 +6,9 @@ const config = {
   },
   production: {
     BACKEND_URL:
-      process.env.REACT_APP_BACKEND_URL ||
       "https://metamate-production.up.railway.app",
     WS_URL:
-      process.env.REACT_APP_WS_URL ||
-      "wss://metamate-production.up.railway.app",
+      "wss://metamate-production.up.railway.app"
   },
 };
 
